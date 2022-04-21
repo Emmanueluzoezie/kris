@@ -3,8 +3,6 @@ import Link  from "next/link"
 import { Transition } from "@headlessui/react";
 import MenuIcon from '@mui/icons-material/Menu'
 import CloseIcon from '@mui/icons-material/Close'
-import Image from "next/image"
-// import logo from "../public/logo.png";
 
 const Menu = () => {
   
@@ -19,7 +17,6 @@ const Menu = () => {
                   <div className="">
                     <Link href="/">
                       <h3>Kristen</h3>
-                    {/* <Image src={logo} alt="logo" width="130px" height="130px" className="cursor-pointer"/> */}
                     </Link>
                   </div>
                   <div className="hidden md:block ">
